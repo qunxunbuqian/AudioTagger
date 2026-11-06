@@ -1,0 +1,18 @@
+.gradle/
+**/build/
+lab/
+/libs/
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# 本地构建输出，APK 发布到 GitHub Releases
+output/*.apk
+output/*.json
+
+# 签名文件不要提交
+*.jks
+*.keystore
+
+
